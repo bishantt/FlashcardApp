@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/Relative_container">
+
+    <TextView
+        android:id="@+id/Question_Text"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/ic_launcher_background"
+        android:gravity="center"
+        android:text="Who is the owner of this App?"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/Answer_Text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40sp"
+        android:background="@drawable/ic_launcher_background"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Bishant it is!"
+        android:textSize="40sp"
+        android:visibility="gone" />
+
+</RelativeLayout>
